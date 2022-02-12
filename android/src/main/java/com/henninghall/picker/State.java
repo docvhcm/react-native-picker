@@ -13,7 +13,6 @@ import com.henninghall.picker.props.FadeToColorProp;
 import com.henninghall.picker.props.HeightProp;
 import com.henninghall.picker.props.LocaleProp;
 import com.henninghall.picker.props.MaximumDateProp;
-import com.henninghall.picker.props.MaximumNumberProp;
 import com.henninghall.picker.props.MinimumDateProp;
 import com.henninghall.picker.props.MinuteIntervalProp;
 import com.henninghall.picker.props.ModeProp;

@@ -20,8 +20,14 @@ public class ArrayWheel extends Wheel
       ReadableArray items = state.getItems();
       ArrayList<String> values = new ArrayList<>();
       int size = items.size();      
-      for (int i = 0; i < size; ++i) {        
-        values.add(items.getString(i));
+      for (int i = 0; i < size; ++i) {
+        String item = items.getString(i);
+        if(item != null && !item.isEmpty()) {
+          values.add(item);
+        } else {
+          values.add("Item " + i);
+        }
+        
       }
       return values;
     }
